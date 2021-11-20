@@ -1,0 +1,24 @@
+
+body {
+    font-family: Meldivica, sans-serif;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+    border-style: hidden;
+    width: 100%;
+}
+
+th, td, table {
+    border: 1px solid #E3E3E3;
+    padding: 5px;
+}
+
+thead {
+    background-color: #CCCCCC;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #F1F1F1;
+}
