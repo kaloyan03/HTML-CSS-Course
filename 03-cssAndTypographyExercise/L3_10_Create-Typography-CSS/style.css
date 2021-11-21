@@ -1,18 +1,47 @@
 html {
-    font-family: 'Helvetica', 'sans-serif';
+    font-family: Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Georgia', 'serif';
+    font-family: Georgia, serif;
 }
 
 table {
-    border: 1px solid rgb(221,221,221);
+    border-collapse: collapse;
+    border-style: hidden;
     width: 100%;
 }
 
+th, td, table {
+    border: 1px solid #E3E3E3;
+    padding: 5px;
+}
+
 thead {
-    background-color: rgb(204, 204, 204);
+    background-color: #CCCCCC;
+}
+
+tbody tr:nth-child(odd) {
+    background: #F1F1F1;
+}
+
+tbody tr:nth-child(odd) > td{
+    background: #F1F1F1;
+}
+
+tbody tr:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+blockquote {
+    border-left: 3px solid rgb(221,221,221);
+    font-style: italic;
+    padding-left:2%;
+}
+
+blockquote p:nth-child(3) {
+    padding-left: 55%;
 }

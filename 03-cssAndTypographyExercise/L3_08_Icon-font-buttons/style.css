@@ -1,0 +1,27 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+body {
+    margin: 60px;
+}
+
+a {
+    display: block;
+    width: fit-content;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.green {
+    background: #008000;
+}
+
+.yellow {
+    background: #FF8C00;
+}
+
+i {
+    padding-right: 7px;
+}
