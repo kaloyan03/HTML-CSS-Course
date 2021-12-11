@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+h1, h2,h3,h4,h5,h6 {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: #54546D;
+    font-weight: bold;
+}
+
+body {
+    color: #54546D;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo {
+    display: inline-flex;
+}
+
+.header-logo img {
+    width: 50%;
+}
+
+.header-list {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.header-list-item {
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #54546D;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.container {
+    max-width: 2000px;
+    padding: 0 20px;
+}
+
+.programs {
+    background-color: #54546D;
+    padding: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    max-height: 300px;
+}
+
+.program {
+    background-color: white;
+    border-radius: 12px;
+    width: 100%;
+    margin: 10px;
+    max-height: 400px;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.program h3, p {
+    padding: 14px;
+}
+
+.programs-title {
+    color: white;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+
+.program-cta {
+    border-radius: 20px;
+    background-color: #9A5DC6;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 3px black;
+    margin: 43px auto;
+}
+
+.program-footer.basics {
+    background: linear-gradient(90deg, rgba(4,156,62,1) 50%, rgba(74,213,127,1) 100%);
+    padding-top: 15px;
+}
+
+
+.program-footer.fundamentals {
+    background: linear-gradient(90deg, rgba(97,154,206,1) 50%, rgba(76,108,136,1) 100%);
+}
+
+.program-footer.professional {
+    background: linear-gradient(90deg, rgba(139,124,224,1) 50%, rgba(77,59,168,1) 100%);}
+
+.program-footer {
+    color: white;
+    border-radius: 12px;
+}
+
+.program-footer h3 {
+    color: white;
+}
+
+.fundamentals, .professional {
+    display: flex;
+}
+
