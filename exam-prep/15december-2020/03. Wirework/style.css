@@ -93,13 +93,13 @@ body {
     padding: 40px;
 }
 
-.benefit-title {
+.benefit-title-after, .benefit-title {
     color: white;
     padding-bottom: 40px;
     position: relative;
 }
 
-.benefit-title::after {
+.benefit-title-after::after {
     content: '';
     position: absolute;
     background-color: #686868;
@@ -111,6 +111,7 @@ body {
 
 .benefit-content {
     color: #686868;
+    line-height: 2;
 }
 
 .icon {
@@ -118,4 +119,40 @@ body {
     color: white;
     font-size: 60px;
     padding: 15px;
+}
+
+.join-us-title {
+    color: #595959;
+}
+
+
+.join-us-text {
+    color: grey;
+}
+
+.join-us-cda {
+    background-color: #1B9772;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+.join-us {
+    text-align: center;
+    margin: 70px;
+    line-height: 6px;
+}
+
+.site-footer {
+    background-color: #1B9772;
+    padding: 75px;
+    text-align: center;
+}
+
+.site-footer-content {
+    color: rgb(200, 200, 200);
+    letter-spacing: 2px;
 }
