@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+.page-nav ul {
+  list-style: none;
+}
+
+.page-nav a {
+  text-decoration: none;
+}
+
+.page-nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.page-nav li:hover {
+  background-color: darkgrey;
+}
+
+header {
+  background-color: lightcyan;
+}
+
+main {
+  background-color: palevioletred;
+  
+}
+
+
+footer {
+  background-color: chartreuse;
+
+
+}
